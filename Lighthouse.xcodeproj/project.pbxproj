@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10FF0F028C8201C00FA103D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10FF0EF28C8201C00FA103D /* MapView.swift */; };
+		D1827B2E28BBA16F00640384 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1827B2D28BBA16F00640384 /* CircleImage.swift */; };
 		D1F7F1CA28B6FEFA007CC863 /* LighthouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F7F1C928B6FEFA007CC863 /* LighthouseApp.swift */; };
 		D1F7F1CC28B6FEFA007CC863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F7F1CB28B6FEFA007CC863 /* ContentView.swift */; };
 		D1F7F1CE28B6FEFE007CC863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F7F1CD28B6FEFE007CC863 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D10FF0EF28C8201C00FA103D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D1827B2D28BBA16F00640384 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D1F7F1C628B6FEFA007CC863 /* Lighthouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighthouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F7F1C928B6FEFA007CC863 /* LighthouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseApp.swift; sourceTree = "<group>"; };
 		D1F7F1CB28B6FEFA007CC863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				D1F7F1C928B6FEFA007CC863 /* LighthouseApp.swift */,
 				D1F7F1CB28B6FEFA007CC863 /* ContentView.swift */,
 				D1F7F1CD28B6FEFE007CC863 /* Assets.xcassets */,
+				D1827B2D28BBA16F00640384 /* CircleImage.swift */,
+				D10FF0EF28C8201C00FA103D /* MapView.swift */,
 				D1F7F1CF28B6FEFE007CC863 /* Preview Content */,
 			);
 			path = Lighthouse;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F7F1CC28B6FEFA007CC863 /* ContentView.swift in Sources */,
+				D10FF0F028C8201C00FA103D /* MapView.swift in Sources */,
 				D1F7F1CA28B6FEFA007CC863 /* LighthouseApp.swift in Sources */,
+				D1827B2E28BBA16F00640384 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
